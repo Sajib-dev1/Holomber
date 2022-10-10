@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holmberg</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <!-- ===============Navber part start================ -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="logo">
+            </a>
+            <div class="togol-area">
+                <i class="fa-solid fa-bars show"></i>
+            </div>
+            <div class="slide-bar d-flex justify-content-center align-items-center">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#banner">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#category">category</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#chart">testimonial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#action">contact</a>
+                    </li>
+                </ul>
+                <div class="crose">
+                    <i class="fa-solid fa-xmark close"></i>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0" id="nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#banner">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#category">category</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#chart">testimonial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#action">contact</a>
+                    </li>
+                </ul>
+                <button class="nav-button" type="submit">Sing Up Now</button>
+            </div>
+        </div>
+    </nav>
+    <!-- ===============Navber part end================== -->
+    <!-- ===============banner part start================ -->
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-sm-12">
+                    <div class="banner-text">
+                        <h1>Everything for your remote meetings all in one place</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit malesuada vitae varius velit
+                            sem. Aliquet sapien vel lacus purus sit. At.</p>
+                        <button type="button">Download The Theme</button>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="ban-img">
+                        <img src="images/ban-img.jpg" alt="ban-img" class="w-100 img-fluid">
+                        <div id="overlay-btn" class="overlay-btn">
+                            <button id="video-play" class="video-play-button"><i class="fa-solid fa-play"></i></button>
+                            <div id="video-overlay" class="video-overlay">
+                                <a class="video-overlay-close">&times;</a>
+                            </div>
+                        </div>
+                        <div class="ban-vactor-left">
+                            <img src="images/ban-victor-left.png" alt="ban-vactor-left">
+                        </div>
+                        <div class="ban-vactor-right">
+                            <img src="images/ban-victor-right.png" alt="ban-vactor-left">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===============banner part end================== -->
+    <div class="victor-img" style="background: url(./images/section-img.png) no-repeat top/cover;"></div>
+        <!-- ===============About part start============= -->
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2">
+                        <div class="about-hed text-center">
+                            <h3>collaborative workspace for Every
+                                each meeting For easy access</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing. egestas viverra id aliquet. vulputate
+                                egestas sollicitudin .</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-10 offset-lg-1">
+                        <div class="about-wrepper">
+                            <div class="about-victor-left">
+                                <img src="images/sv-left.png" alt="service-victor-left">
+                            </div>
+                            <div class="about-victor-right">
+                                <img src="images/service-victor-right.png" alt="service-victor-right">
+                            </div>
+                            <div class="about-item text-center">
+                                <div class="about-sape"><i class="fa-regular fa-bell"></i></div>
+                                <div class="about-text">
+                                    <h4>Focus only value On Real activities</h4>
+                                    <p>Lorem ipsum dolor amet, cotetur adipiscing elit. Neue enim diam nare sagiis,
+                                        aliquet cursus</p>
+                                </div>
+                            </div>
+                            <div class="about-item text-center">
+                                <div class="about-sape">
+                                    <svg class="sape" xmlns="http://www.w3.org/2000/svg" width="15" height="30" viewBox="0 0 15 30" fill="none">
+                                        <path d="M15 6.50987V23.4483H12.8611V6.50987C12.8611 4.33526 11.1521 1.99322 7.3984 1.99322C3.24683 1.99322 2.13889 4.83157 2.13889 6.50987V22.6968H2.15386V25.601C2.15386 26.8368 3.6361 28.0048 5.20391 28.0048C7.00913 28.0048 8.55554 26.6434 8.55554 25.5312V24.993H8.54912L8.56623 9.81064C8.56623 8.06857 8.03793 8.06857 7.56951 8.06857C6.78027 8.06857 6.39954 8.13833 6.39954 9.70899V19.9661H4.26066V9.70899C4.26066 8.81005 4.26066 6.07534 7.56951 6.07534C9.00043 6.07534 10.7051 6.72314 10.7051 9.81264L10.6901 22.6291H10.6944V25.5332C10.6944 27.8712 8.07643 30 5.20391 30C2.44047 30 0.0149721 27.945 0.0149721 25.603V25.4555H0V6.50987C0 3.37453 2.31427 0 7.3984 0C12.3884 0.00199322 15 3.27487 15 6.50987Z" fill="white"/>
+                                        </svg>
+                                </div>
+                                <div class="about-text">
+                                    <h4>Manage your works effortlessly</h4>
+                                    <p>Lorem ipsum dolor amet, cotetur adipiscing elit. Neue enim diam nare sagiis,
+                                        aliquet cursus</p>
+                                </div>
+                            </div>
+                            <div class="about-item text-center">
+                                <div class="about-sape">
+                                    <svg class="sape" xmlns="http://www.w3.org/2000/svg" width="28" height="34" viewBox="0 0 28 34" fill="none">
+                                        <path d="M14.9333 4V0H13.0667V4H0V24H28V4H14.9333ZM26.1333 22H1.86667V6H26.1333V22ZM4.66667 26H23.3333V28H18.5099L21.3173 32.652L19.7493 33.738L16.2867 28H14.9333V34H13.0667V28H11.7376L8.2488 33.74L6.68453 32.65L9.51067 28H4.66667V26Z" fill="white"/>
+                                        </svg>
+                                </div>
+                                <div class="about-text">
+                                    <h4>Decisions with impact make data driven </h4>
+                                    <p>Lorem ipsum dolor amet, cotetur adipiscing elit. Neue enim diam nare sagiis,
+                                        aliquet cursus</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===============About part end=============== -->
+        <!-- ===============catagory part start============= -->
+        <section id="category">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2">
+                        <div class="about-hed text-center">
+                            <h3>We know Happy Schedule is tool because we use every day</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mx-0">
+                    <div class="col-lg-10 offset-lg-1">
+                        <div class="category-wrepper">
+                            <div class="category-item">
+                                <div class="category-flx">
+                                    <h4>01</h4>
+                                    <div class="text-cata">
+                                        <h5>Manage your works effortlessly</h5>
+                                        <p>Lorem ipsum dolor amet, cotetur adipiscing elit. Neue enim diam nare sagiis,
+                                            aliquet cursus</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="category-item">
+                                <div class="category-flx">
+                                    <h4>02</h4>
+                                    <div class="text-cata">
+                                        <h5>Manage your works effortlessly</h5>
+                                        <p>Lorem ipsum dolor amet, cotetur adipiscing elit. Neue enim diam nare sagiis,
+                                            aliquet cursus</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="category-item">
+                                <div class="category-flx">
+                                    <h4>03</h4>
+                                    <div class="text-cata">
+                                        <h5>Manage your works effortlessly</h5>
+                                        <p>Lorem ipsum dolor amet, cotetur adipiscing elit. Neue enim diam nare sagiis,
+                                            aliquet cursus</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="category-item">
+                                <div class="category-flx">
+                                    <h4>04</h4>
+                                    <div class="text-cata">
+                                        <h5>Manage your works effortlessly</h5>
+                                        <p>Lorem ipsum dolor amet, cotetur adipiscing elit. Neue enim diam nare sagiis,
+                                            aliquet cursus</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="category-item">
+                                <div class="category-flx">
+                                    <h4>05</h4>
+                                    <div class="text-cata">
+                                        <h5>Manage your works effortlessly</h5>
+                                        <p>Lorem ipsum dolor amet, cotetur adipiscing elit. Neue enim diam nare sagiis,
+                                            aliquet cursus</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="category-item">
+                                <div class="category-flx">
+                                    <h4>06</h4>
+                                    <div class="text-cata">
+                                        <h5>Manage your works effortlessly</h5>
+                                        <p>Lorem ipsum dolor amet, cotetur adipiscing elit. Neue enim diam nare sagiis,
+                                            aliquet cursus</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===============catagory part end=============== -->
+        <!-- ===============chart part start============= -->
+        <section id="chart">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="chart-item">
+                            <div class="chart-wrepper">
+                                <div class="chart-number">
+                                    <h4>1</h4>
+                                </div>
+                                <div class="chart-text">
+                                    <h4>Decisions with impact make data </h4>
+                                    <p>Lorem ipsum dolor sit amet, consesctgetur adipiscing elit. Sit malesuaa vitae
+                                        varius vem</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chart-item">
+                            <div class="chart-wrepper">
+                                <div class="chart-number2">
+                                    <h4>2</h4>
+                                </div>
+                                <div class="chart-text">
+                                    <h4>Focus only value On Real activities</h4>
+                                    <p>Lorem ipsum dolor sit amet, consesctgetur adipiscing elit. Sit malesuaa vitae
+                                        varius vem</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chart-item">
+                            <div class="chart-wrepper">
+                                <div class="chart-number3">
+                                    <h4>3</h4>
+                                </div>
+                                <div class="chart-text">
+                                    <h4>Manage your works effortlessly</h4>
+                                    <p>Lorem ipsum dolor sit amet, consesctgetur adipiscing elit. Sit malesuaa vitae
+                                        varius vem</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                     <div class="chart-wrep">
+                        <div class="victor-img-serv">
+                            <img src="images/service-victor-img.png" alt="service-img">
+                        </div>
+                        <div class="chart-img">
+                            <img src="images/service-img.png" alt="service-img" class="w-100 img-fluid">
+                        </div>
+                     </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+     
+        <!-- ===============chart part end=============== -->
+        <!-- ===============testimonial part start============= -->
+        <section id="testimonial">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2">
+                        <div class="about-hed text-center">
+                            <h3>Our Customers Have Nice Things To Say About Us</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-5 col-md-6">
+                        <div class="person-wrepper">
+                            <div class="person-item">
+                                <div class="person-victor-left">
+                                    <img src="images/review-victor-left.png" alt="review-victor-left">
+                                </div>
+                                <div class="person-victor-right">
+                                    <img src="images/review-victor-right.png" alt="review-victor-right">
+                                </div>
+                                <div class="person-img">
+                                    <img src="images/Group 697.png" alt="Group" class="w-100 img-fluid">
+                                </div>
+                            </div>
+                            <div class="person-item">
+                                <div class="person-victor-left">
+                                    <img src="images/review-victor-left.png" alt="review-victor-left">
+                                </div>
+                                <div class="person-victor-right">
+                                    <img src="images/review-victor-right.png" alt="review-victor-right">
+                                </div>
+                                <div class="person-img">
+                                    <img src="images/Group 697.png" alt="Group" class="w-100 img-fluid">
+                                </div>
+                            </div>
+                            <div class="person-item">
+                                <div class="person-victor-left">
+                                    <img src="images/review-victor-left.png" alt="review-victor-left">
+                                </div>
+                                <div class="person-victor-right">
+                                    <img src="images/review-victor-right.png" alt="review-victor-right">
+                                </div>
+                                <div class="person-img">
+                                    <img src="images/Group 697.png" alt="Group" class="w-100 img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-6">
+                        <div class="text-wrepper">
+                            <div class="text-item">
+                                <div class="text-img">
+                                    <img src="images/slider-text.png" alt="reviow-right-cullon">
+                                </div>
+                                <p>"Dealing with sickle cell has been a lifelong rollercoaster. The thought of my voice being heard in the world of medicine is really what motivated me to join this study. Not only to advocate for myself but” </p>
+                                <h4>Jhony Bravo</h4>
+                                <p>CEO, THEMEFISHER</p>
+                            </div>
+                            <div class="text-item">
+                                <div class="text-img">
+                                    <img src="images/slider-text.png" alt="reviow-right-cullon">
+                                </div>
+                                <p>"Dealing with sickle cell has been a lifelong rollercoaster. The thought of my voice being heard in the world of medicine is really what motivated me to join this study. Not only to advocate for myself but” </p>
+                                <h4>Jhony Bravo</h4>
+                                <p>CEO, THEMEFISHER</p>
+                            </div>
+                            <div class="text-item">
+                                <div class="text-img">
+                                    <img src="images/slider-text.png" alt="reviow-right-cullon">
+                                </div>
+                                <p>"Dealing with sickle cell has been a lifelong rollercoaster. The thought of my voice being heard in the world of medicine is really what motivated me to join this study. Not only to advocate for myself but” </p>
+                                <h4>Jhony Bravo</h4>
+                                <p>CEO, THEMEFISHER</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- ===============testimonial part end=============== -->
+        <!-- ===============coll to action part start============= -->
+        <section id="action">
+            <div class="container">
+                <div class="action_bg">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="action-left">
+                                <h3>Helping teams in the world with focus</h3>
+                                <button type="button">Download The Theme</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="action-right">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin .</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </section>
+        <!-- ===============coll to action part end=============== -->
+        <!-- ===============futter part start============= -->
+        <section id="futter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="footer-item">
+                            <img src="images/footer-logo.png" alt="footer-logo">
+                            <p>Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat. </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 offset-xl-1 col-sm-6">
+                        <div class="footer-item">
+                           <h4>Socials</h4>
+                            <p>themefisher@gmail.com </p>
+                            <div class="link">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-brands fa-skype"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-5 mt-sm-5 mt-lg-0">
+                        <div class="footer-item">
+                           <h4>Quick Links</h4>
+                           <ul>
+                               <li>About</li>
+                               <li>Category</li>
+                               <li>Testimonial</li>
+                               <li>Contact</li>
+                           </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-7 mt-sm-5 mt-lg-0">
+                        <div class="footer-item">
+                           <h4>Location & Contact</h4>
+                         <p>2118 Thornridge Cir. Syracuse,<br> Connecticut 35624</p>
+                         <p>(704) 555-0127</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===============futter part end=============== -->
+        <!-- ===============coppy part start=============== -->
+        <section id="coppy">
+            <div class="coppy-victor">
+                <img src="images/footer-victor-left.png" alt="footer-victor-left">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="coppy-text text-center">
+                            <p>Designed By Themefisher, Developed by Gethugothemes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="back-to-top">
+            <i class="fa-solid fa-angle-up"></i>
+        </div>
+        <!-- ===============coppy part end=============== -->
+
+   
+
+
+
+
+
+
+
+
+    <!-- ================js all link================= -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/script.js"></script>
+    <!-- ================js all link================= -->
+</body>
+
+</html>
